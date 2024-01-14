@@ -15,6 +15,7 @@
   background: url(images/movies\ background.jpg);
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
+  /* border: 3px solid red; */
 }
 .overlay {
   height: 100%;
@@ -90,7 +91,7 @@
   height: 82vh; 
   /* height: auto; */
   background-color: black;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 .display .container .message {
   display: flex;
@@ -153,7 +154,7 @@
 }
 .faq .freq {
   margin-top: 3rem;
-  height: 5rem;
+  height: auto;
   border: 2px solid red;
 }
 .faq .freq h1 {
@@ -217,7 +218,7 @@ button {
 .sign-up {
   height: 4rem;
   margin-top: 2rem;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,17 +329,18 @@ button {
     border-top: 10px solid #363737;
     height: auto; 
     background-color: black;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
   }
   .display .container .message {
     display: grid;
     color: aliceblue;
-    border: 2px solid peru;
+    /* border: 2px solid peru; */
   }
   .display .container .message div {
+    height: 20rem;
     margin-top: 3rem;
     width: 100%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
   }
   .display-bottom {
@@ -358,21 +360,19 @@ button {
     margin-top: 10px;
   }
   .display .container .message .text-message {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 0rem;
+    /* padding-top: 0rem; */
     /* height: 30vh; */
     height: auto;
     /* width: 100%; */
+    margin-bottom: 1.5rem;
   }
-  /* .display .container .message .text-message .imagge{
-    height: 50vh;
-    width: fit-content;
-  } */
+  .display .container .message .text-message .imagge{
+    height: 20rem;
+  }
 
   .display-alone {
     border-top: 10px solid #363737;
-    height: 40vh;
+    height: auto;
     background-color: black;
   } 
   .display-alone .container .message div {
@@ -381,8 +381,9 @@ button {
     width: 100%;
     color: aliceblue;
     /* margin-top: 3rem; */
-    height: 24vh;
+    height: auto;
     border: 2px solid green;
+    margin-bottom: 1.5rem;
   }
   .display-alone .container .message h1 {
     font-size: 35px;
@@ -391,6 +392,28 @@ button {
   .display-alone .container .message p {
     font-size: 18px;
     font-weight: 550;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+  }
+  .net-header {
+    height: 100vh;
+    background: url(images/movies\ background.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+  }
+  .net-header .welcome {
+    height: 75vh;
+  }
+  /* Accordion item header */
+  .faq .freq h1 {
+    font-size: 29px;
+    font-weight: 650;
+  }
+  button {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .accordion-content p {
+    font-size: 18px;
+    font-weight: 480;
   }
 }
