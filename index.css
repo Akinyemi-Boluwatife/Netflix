@@ -87,7 +87,8 @@
 
 .display {
   border-top: 10px solid #363737;
-  height: 82vh;
+  height: 82vh; 
+  /* height: auto; */
   background-color: black;
   /* border: 2px solid yellow; */
 }
@@ -107,7 +108,7 @@
 }
 .display .container .message img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .display .container .message h1 {
   font-size: 50px;
@@ -119,7 +120,7 @@
   margin-top: 10px;
 }
 .display .container .message .text-message {
-  padding-top: 9.95rem;
+  padding-top: 3.95rem;
 }
 .display-alone {
   border-top: 10px solid #363737;
@@ -153,7 +154,7 @@
 .faq .freq {
   margin-top: 3rem;
   height: 5rem;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 .faq .freq h1 {
   color: white;
@@ -162,7 +163,7 @@
   font-weight: 800;
 }
 .faq .ask {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   height: auto;
 }
 /* accordion */
@@ -216,7 +217,7 @@ button {
 .sign-up {
   height: 4rem;
   margin-top: 2rem;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,7 +251,7 @@ button {
   color: white;
 }
 .foot-content {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   height:42vh;
   margin-top: 4rem;
 }
@@ -259,12 +260,12 @@ button {
 }
 .foot-links {
   height: 22vh;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   margin-top: 0.5rem;
 }
 .foot-links ul li {
   padding: 0px;
-  /* border: 2px solid pink; */
+  border: 2px solid pink;
   display: inline-block;
   width: 24.5%;
   margin-top: 0.7rem;
