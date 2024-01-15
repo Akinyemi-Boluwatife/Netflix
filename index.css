@@ -48,8 +48,9 @@
 }
 .net-header .welcome {
   color: white;
-  height: 60vh;
-  /* border: 2px solid green; */
+  /* height: 60vh; */
+  height: 40vh;
+  border: 2px solid green;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -121,7 +122,12 @@
   margin-top: 10px;
 }
 .display .container .message .text-message {
-  padding-top: 6.95rem;
+  /* padding-top: 6.95rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .display-alone {
   border-top: 10px solid #363737;
@@ -246,27 +252,30 @@ button {
 
 .foot {
   background-color: black;
-  height: 60vh;
+  /* height: 60vh; */
+  height: auto;
 }
 .foot a {
   color: white;
 }
 .foot-content {
-  border: 2px solid blue;
-  height:42vh;
+  /* border: 2px solid blue; */
+  /* height:42vh; */
+  height: auto;
   margin-top: 4rem;
 }
 .foot-quest {
   color: white;
 }
 .foot-links {
-  height: 22vh;
-  border: 2px solid red;
+  /* height: 22vh; */
+  height: auto;
+  /* border: 2px solid red; */
   margin-top: 0.5rem;
 }
 .foot-links ul li {
   padding: 0px;
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
   display: inline-block;
   width: 24.5%;
   margin-top: 0.7rem;
@@ -296,10 +305,17 @@ button {
 .Net-Nig {
   color: white;
   margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 
 /* RESPONSIVENESS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 @media (max-width: 1278px) {
   .container {
     width: 90%;
@@ -319,11 +335,51 @@ button {
     font-weight: 820;
   }
 }
-@media (max-width: 950px) {
+@media (max-width: 960px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
   .container {
     width: 90%;
     margin: auto;
     overflow: hidden;
+  }
+  .net-header {
+    height: 80vh !important;
+    /* background: url(images/movies\ background.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover; */
+    border: 3px solid red;
+  }
+  .net-header .welcome {
+    color: white;
+    /* height: 60vh; */
+    height: 40vh !important; 
+    border: 2px solid greenyellow;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .net-header .welcome p {
+    font-size: 1.5rem;
+    font-weight: 450px;
+  }
+  .net-header .welcome h1 {
+    font-weight: 670;
+    font-size: 2.0rem;
+    margin-bottom: 1.0rem;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
   }
   .display {
     border-top: 10px solid #363737;
@@ -337,8 +393,8 @@ button {
     /* border: 2px solid peru; */
   }
   .display .container .message div {
-    height: 20rem;
-    margin-top: 3rem;
+    height: auto;
+    /* margin-top: 3rem; */
     width: 100%;
     /* border: 2px solid green; */
     text-align: center;
@@ -357,17 +413,22 @@ button {
   .display .container .message p {
     font-size: 18px;
     font-weight: 550;
+    margin: 0;
     margin-top: 10px;
   }
   .display .container .message .text-message {
-    /* padding-top: 0rem; */
-    /* height: 30vh; */
-    height: auto;
-    /* width: 100%; */
-    margin-bottom: 1.5rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 2rem;
+    text-align: center;
+    height: 11rem;
   }
   .display .container .message .text-message .imagge{
-    height: 20rem;
+    /* height: 20rem; */
+    width: 70% !important;
+    margin: auto !important;
   }
 
   .display-alone {
@@ -380,7 +441,7 @@ button {
     text-align: center;
     width: 100%;
     color: aliceblue;
-    /* margin-top: 3rem; */
+    margin-top: 2.5rem;
     height: auto;
     border: 2px solid green;
     margin-bottom: 1.5rem;
@@ -392,6 +453,7 @@ button {
   .display-alone .container .message p {
     font-size: 18px;
     font-weight: 550;
+    margin: 0;
     /* margin-top: 10px; */
   }
   .net-header {
@@ -415,5 +477,17 @@ button {
   .accordion-content p {
     font-size: 18px;
     font-weight: 480;
+  }
+
+  .foot-links ul li {
+    width: 45%;
+  }
+  /* STYLE FOR THE ACCORDION CONTENT */
+  button {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .accordion-item {
+    height: 5.5rem;
   }
 }
