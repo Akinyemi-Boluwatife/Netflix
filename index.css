@@ -1,4 +1,4 @@
-/* I hope it works */
+/* Written by Boluwatife Akinyemi, contact me: boluintech@gmail.com* 100%/
 * {
   margin: 0;
   padding: 0;
@@ -349,9 +349,6 @@ button {
   }
   .net-header {
     height: 80vh !important;
-    /* background: url(images/movies\ background.jpg);
-    background-color: rgba(0, 0, 0, 0.5);
-    background-size: cover; */
     border: 3px solid red;
   }
   .net-header .welcome {
@@ -417,10 +414,6 @@ button {
     margin-top: 10px;
   }
   .display .container .message .text-message {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     margin-bottom: 2rem;
     text-align: center;
     height: 11rem;
