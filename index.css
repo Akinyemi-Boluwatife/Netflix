@@ -1,4 +1,4 @@
-/* Written by Boluwatife Akinyemi, contact me: boluintech@gmail.com* 100%/
+/* Written by Boluwatife Akinyemi, contact me: boluintech@gmail.com*/
 * {
   margin: 0;
   padding: 0;
@@ -64,8 +64,8 @@
 }
 .net-header .welcome h1 {
   font-weight: 650;
-  font-size: 3.0rem;
-  margin-bottom: 1.0rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 .net-header .welcome a {
   background-color: red;
@@ -86,10 +86,9 @@
   vertical-align: middle;
 }
 
-
 .display {
   border-top: 10px solid #363737;
-  height: 82vh; 
+  height: 82vh;
   /* height: auto; */
   background-color: black;
   /* border: 2px solid yellow; */
@@ -133,7 +132,7 @@
   border-top: 10px solid #363737;
   height: 60vh;
   background-color: black;
-} 
+}
 .display-alone .container .message div {
   margin-left: 9.5rem;
   width: 35%;
@@ -152,11 +151,10 @@
   margin-top: 10px;
 }
 
-
 .faq {
   background-color: black;
   height: auto;
-  border-bottom: 10px solid #363737 ;
+  border-bottom: 10px solid #363737;
 }
 .faq .freq {
   margin-top: 3rem;
@@ -230,7 +228,7 @@ button {
   align-items: center;
   margin-bottom: 5rem;
 }
-.sign-up a{
+.sign-up a {
   text-align: center;
   height: 3.85rem;
   background-color: red;
@@ -243,12 +241,11 @@ button {
   font-weight: 600;
   border-radius: 5px;
 }
-.sign-up img { 
+.sign-up img {
   width: 25px;
   height: 20px;
   vertical-align: middle;
 }
-
 
 .foot {
   background-color: black;
@@ -292,7 +289,7 @@ button {
   border: 1px solid #a4a4a4;
   width: 7rem;
   color: white;
-  height: 2.0rem;
+  height: 2rem;
   text-align: center;
   background-color: #363636;
   border-radius: 6px;
@@ -307,7 +304,6 @@ button {
   margin-top: 1rem;
   margin-bottom: 4rem;
 }
-
 
 /* RESPONSIVENESS */
 * {
@@ -330,7 +326,8 @@ button {
   }
   .display .container .message {
     gap: 0rem;
-  }.display .container .message h1 {
+  }
+  .display .container .message h1 {
     font-size: 50px;
     font-weight: 820;
   }
@@ -354,7 +351,7 @@ button {
   .net-header .welcome {
     color: white;
     /* height: 60vh; */
-    height: 40vh !important; 
+    height: 40vh !important;
     border: 2px solid greenyellow;
     margin: auto;
     display: flex;
@@ -369,8 +366,8 @@ button {
   }
   .net-header .welcome h1 {
     font-weight: 670;
-    font-size: 2.0rem;
-    margin-bottom: 1.0rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
   .overlay {
     height: 100%;
@@ -380,7 +377,7 @@ button {
   }
   .display {
     border-top: 10px solid #363737;
-    height: auto; 
+    height: auto;
     background-color: black;
     /* border: 2px solid yellow; */
   }
@@ -418,7 +415,7 @@ button {
     text-align: center;
     height: 11rem;
   }
-  .display .container .message .text-message .imagge{
+  .display .container .message .text-message .imagge {
     /* height: 20rem; */
     width: 70% !important;
     margin: auto !important;
@@ -428,7 +425,7 @@ button {
     border-top: 10px solid #363737;
     height: auto;
     background-color: black;
-  } 
+  }
   .display-alone .container .message div {
     margin-left: 0rem;
     text-align: center;
